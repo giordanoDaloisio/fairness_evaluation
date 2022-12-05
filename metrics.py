@@ -51,4 +51,4 @@ def hmean(metrics: list):
     '''
     metrics: List of metrics values
     '''
-    stats.hmean(metrics)
+    return stats.hmean(metrics)
